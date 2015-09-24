@@ -1,0 +1,22 @@
+{
+  "name": "Screenshare",
+  "description": "Screen capture browser using binary WebSockets",
+  "version": "0.0.1",
+  "icons": {
+    "16": "img/screen.png",
+    "32": "img/screen.png",
+    "48": "img/screen.png",
+    "128": "img/cat.png"
+  },
+  "manifest_version": 2,
+  "app":{
+      "launch":{
+          "local_path": "background.html"
+      }
+    },
+  "permissions": [
+    "tabs",
+    "<all_urls>",
+    "http://*/*"
+  ]
+}
